@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0546D1A38E13BD319CC9755B /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3AA0D4FAA89D0F8A0E545 /* OscReceivedElements.cpp */; };
-		266D230E3D454A6B4FB7D2A9 /* ofxObjLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABBE16E353D94914544EAFD1 /* ofxObjLoader.cpp */; };
 		3B8120368B4FCCD80883BAF3 /* ofxAssimpAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36068D6C1D6D412786A5C4C1 /* ofxAssimpAnimation.cpp */; };
 		483FA4F6D5FA6422C559B1F5 /* ofxAssimpMeshHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67FE68E327BEFBD4B777571 /* ofxAssimpMeshHelper.cpp */; };
 		4ADB88E2FB52E76A471065DE /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AED834CE4DEC5260AF302A2 /* ofxOscParameterSync.cpp */; };
@@ -25,7 +24,6 @@
 		B8846EF8E504895A4A9EFEC0 /* ofxAssimpTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F2EE44AD04FF549AB13699 /* ofxAssimpTexture.cpp */; };
 		C4782ECC372420ACE0615B74 /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC8881B3C8C0A1C45F042E7A /* OscPrintReceivedElements.cpp */; };
 		CE57801723E41E414BFC65F6 /* CGViewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAEC6D00B4F2A28384634B22 /* CGViewer.cpp */; };
-		CE92EA312AD08D7424AFDA82 /* glm.c in Sources */ = {isa = PBXBuildFile; fileRef = C169272B93C4CE2A9FEFF24F /* glm.c */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
@@ -66,7 +64,6 @@
 		0AED834CE4DEC5260AF302A2 /* ofxOscParameterSync.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscParameterSync.cpp; path = ../../../addons/ofxOsc/src/ofxOscParameterSync.cpp; sourceTree = SOURCE_ROOT; };
 		0E3FB6D73DB6B260295B6855 /* LogStream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = LogStream.hpp; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/LogStream.hpp; sourceTree = SOURCE_ROOT; };
 		18D6965F094E05B40B20AFB8 /* IOStream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IOStream.hpp; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/IOStream.hpp; sourceTree = SOURCE_ROOT; };
-		1DEFE6D22F011CBA34629058 /* glm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = glm.h; path = ../../../addons/ofxObjLoader/libs/glm.h; sourceTree = SOURCE_ROOT; };
 		1E0C80A97E66F858E3720C91 /* quaternion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = quaternion.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/quaternion.h; sourceTree = SOURCE_ROOT; };
 		20F35AFADAF0068B067E713F /* OscReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscReceivedElements.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h; sourceTree = SOURCE_ROOT; };
 		221A6B45269330B270549CB3 /* texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = texture.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/texture.h; sourceTree = SOURCE_ROOT; };
@@ -82,7 +79,6 @@
 		3C37B838FCE602017A5F018D /* CGViewer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = CGViewer.hpp; path = src/CGViewer.hpp; sourceTree = SOURCE_ROOT; };
 		3D5F33D66F2F166A4E8EA438 /* cfileio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cfileio.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/cfileio.h; sourceTree = SOURCE_ROOT; };
 		3DE27F8F3350100A56220776 /* ai_assert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ai_assert.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/ai_assert.h; sourceTree = SOURCE_ROOT; };
-		3E0659F4CB5AFB45E27B5700 /* ofxObjLoader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxObjLoader.h; path = ../../../addons/ofxObjLoader/src/ofxObjLoader.h; sourceTree = SOURCE_ROOT; };
 		41DBF41AB15D7C33CA52C05F /* NullLogger.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = NullLogger.hpp; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/NullLogger.hpp; sourceTree = SOURCE_ROOT; };
 		42B5D460590D03DC3009F243 /* material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = material.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/material.h; sourceTree = SOURCE_ROOT; };
 		42D77E59A87937F5313E468D /* postprocess.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = postprocess.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/postprocess.h; sourceTree = SOURCE_ROOT; };
@@ -114,7 +110,6 @@
 		A2AAA8CA403479E6FCDF920E /* OscHostEndianness.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscHostEndianness.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscHostEndianness.h; sourceTree = SOURCE_ROOT; };
 		A6197D72F51ED9030D7C5F16 /* vector3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = vector3.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/vector3.h; sourceTree = SOURCE_ROOT; };
 		A7579B6BD9B77152BF320192 /* matrix4x4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = matrix4x4.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/matrix4x4.h; sourceTree = SOURCE_ROOT; };
-		ABBE16E353D94914544EAFD1 /* ofxObjLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxObjLoader.cpp; path = ../../../addons/ofxObjLoader/src/ofxObjLoader.cpp; sourceTree = SOURCE_ROOT; };
 		ADAE582E4696B9BD64E5B2B8 /* IOSystem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IOSystem.hpp; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/IOSystem.hpp; sourceTree = SOURCE_ROOT; };
 		ADD194746185E2DA11468377 /* IpEndpointName.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = IpEndpointName.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp; sourceTree = SOURCE_ROOT; };
 		AE335EB4709BFD4671EEAC84 /* MessageMappingOscPacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MessageMappingOscPacketListener.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/MessageMappingOscPacketListener.h; sourceTree = SOURCE_ROOT; };
@@ -123,7 +118,6 @@
 		B6F2EE44AD04FF549AB13699 /* ofxAssimpTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAssimpTexture.cpp; path = ../../../addons/ofxAssimpModelLoader/src/ofxAssimpTexture.cpp; sourceTree = SOURCE_ROOT; };
 		BC8881B3C8C0A1C45F042E7A /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscPrintReceivedElements.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp; sourceTree = SOURCE_ROOT; };
 		C1638C371AC7701E1A4D6671 /* types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = types.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/types.h; sourceTree = SOURCE_ROOT; };
-		C169272B93C4CE2A9FEFF24F /* glm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = glm.c; path = ../../../addons/ofxObjLoader/libs/glm.c; sourceTree = SOURCE_ROOT; };
 		C224E0400677911C78D08627 /* poppack1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = poppack1.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler/poppack1.h; sourceTree = SOURCE_ROOT; };
 		C2FAC65C491D4231379F3298 /* ofxOscReceiver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscReceiver.cpp; path = ../../../addons/ofxOsc/src/ofxOscReceiver.cpp; sourceTree = SOURCE_ROOT; };
 		C58862C6D212C8E8A83810F4 /* ofxOscMessage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscMessage.h; path = ../../../addons/ofxOsc/src/ofxOscMessage.h; sourceTree = SOURCE_ROOT; };
@@ -166,24 +160,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		175ACDC4F17EF5D0EB4728E7 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				ABBE16E353D94914544EAFD1 /* ofxObjLoader.cpp */,
-				3E0659F4CB5AFB45E27B5700 /* ofxObjLoader.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		2081A4BC018CBE6E3D670839 /* ofxObjLoader */ = {
-			isa = PBXGroup;
-			children = (
-				175ACDC4F17EF5D0EB4728E7 /* src */,
-				F15A1C273BC5CB89D8384F4D /* libs */,
-			);
-			name = ofxObjLoader;
-			sourceTree = "<group>";
-		};
 		2C8F245ACBE61E28646C17F2 /* ofxAssimpModelLoader */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,7 +299,6 @@
 			isa = PBXGroup;
 			children = (
 				2C8F245ACBE61E28646C17F2 /* ofxAssimpModelLoader */,
-				2081A4BC018CBE6E3D670839 /* ofxObjLoader */,
 				E6053AB7FEC63D5F83825B88 /* ofxOsc */,
 			);
 			name = addons;
@@ -422,15 +397,6 @@
 				67AD613537D3ED7FD883659E /* assimp */,
 			);
 			name = include;
-			sourceTree = "<group>";
-		};
-		F15A1C273BC5CB89D8384F4D /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				C169272B93C4CE2A9FEFF24F /* glm.c */,
-				1DEFE6D22F011CBA34629058 /* glm.h */,
-			);
-			name = libs;
 			sourceTree = "<group>";
 		};
 		FF8CDF57858E9B94E3237115 /* ip */ = {
@@ -541,8 +507,6 @@
 				483FA4F6D5FA6422C559B1F5 /* ofxAssimpMeshHelper.cpp in Sources */,
 				8DED5056525646FA71980866 /* ofxAssimpModelLoader.cpp in Sources */,
 				B8846EF8E504895A4A9EFEC0 /* ofxAssimpTexture.cpp in Sources */,
-				266D230E3D454A6B4FB7D2A9 /* ofxObjLoader.cpp in Sources */,
-				CE92EA312AD08D7424AFDA82 /* glm.c in Sources */,
 				72A929D3561B8232A182ABFC /* ofxOscBundle.cpp in Sources */,
 				5864AD82E20F15536D054EA3 /* ofxOscMessage.cpp in Sources */,
 				4ADB88E2FB52E76A471065DE /* ofxOscParameterSync.cpp in Sources */,
